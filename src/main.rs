@@ -2,7 +2,6 @@ use std::io::{self, Write};
 
 fn main() {
     // Prompt the user for input
-    print!("Enter some text: ");
     io::stdout().flush().unwrap(); // Make sure the prompt is displayed immediately
     
     // Read the input from stdin
